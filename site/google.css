@@ -1,1 +1,96 @@
-/* fill in styles here */
+.topleft {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #5f6368;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 13px;
+  float: left;
+}
+
+.topleft:hover {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #5f6368;
+  font-size: 13px;
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-top: 13px;
+  float: left;
+}
+
+.topright {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #5f6368;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 13px;
+  float: right;
+}
+
+.topright:hover {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #5f6368;
+  font-size: 13px;
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-top: 13px;
+  float: right;
+}
+
+#button {
+  border: none;
+  background-color: #4287f5;
+  color: rgb(255, 255, 255);
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bolder;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+#button:hover {
+  border: none;
+  box-shadow: 1px 1px 1px rgb(233, 233, 233);
+  background-color: #4287f5;
+  color: rgb(255, 255, 255);
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bolder;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.footer {
+  color: #5f6368;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footertext {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #b4b4b4;
+  color: #5f6368;
+  width: 100%;
+  height: 40px;
+}
